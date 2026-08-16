@@ -1,0 +1,32 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+._*
+__MACOSX/
+
+# Diagnostics and local captures
+*.zip
+*.tailspin
+*.gpuRestart
+*.panic
+*.log
+DiagnosticReports/
+Logs/
+
+# Private OpenCore material
+config.private.plist
+EFI/OC/config.private.plist
+EFI/OC/Config-Profiles/*private*.plist
+SMBIOS-private.txt
+
+# Local brightness build products
+Tools/Brightness/build/
+Tools/Brightness/T495sBrightnessOverlay
+*.o
+*.dSYM/
+
+# Editor/runtime caches
+__pycache__/
+*.pyc
+.vscode/
+.idea/
