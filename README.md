@@ -15,7 +15,7 @@ macOS Ventura running natively on a Lenovo ThinkPad T495s with full Metal GPU ac
 |:---:|
 | ![About This Mac](assets/about-this-mac.png) |
 
-| Geekbench 6 Metal - 11179 | Geekbench 6 Metal - 5164 | Cinebench R23 Multi-Core - 3141 |
+| Geekbench 6 Metal - 11179 | Geekbench 6 Metal - 5164 (on battery) | Cinebench R23 Multi-Core - 3141 |
 |:---:|:---:|:---:|
 | ![Metal 11179](assets/benchmarks/geekbench-metal-11179.png) | ![Metal 5164](assets/benchmarks/geekbench-metal-5164.png) | ![Cinebench](assets/benchmarks/cinebench-r23-multicore.png) |
 
@@ -155,37 +155,52 @@ Open lid
 
 This is referred to as **S0-based emulated clamshell sleep** or **lid continuity mode** in the documentation.
 
-## Installation
+## Installation (step by step)
 
-1. Download EFI + PostInstall from [Releases](https://github.com/vluncasu/ThinkPad-T495s-macOS/releases)
-2. **Generate your own SMBIOS** (required for iCloud, iMessage, FaceTime, App Store):
-   - Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) with model `MacBookPro16,3`
-   - Replace the fake placeholders in `config.plist`
-3. Copy `EFI/` to your USB installer's EFI partition
-4. If Wi-Fi crashes the installer, rename `config-install-no-wifi.plist` to `config.plist`
-5. Install macOS Ventura
-6. After install, switch back to normal `config.plist` (with AirportItlwm enabled)
-7. Run `Tools/Install.command` for trackpad preferences and brightness overlay
-8. Disable Chrome hardware acceleration (or use `Tools/Chrome/Launch-Safe.command`)
+### Step 1 — Make a bootable USB
 
-## SMBIOS - You MUST generate your own
+1. Download **both ZIPs** from [Releases](https://github.com/vluncasu/ThinkPad-T495s-macOS/releases)
+2. Create a macOS Ventura USB installer ([guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/))
+3. Mount the USB's EFI partition (`sudo diskutil mount disk#s1`)
+4. Copy the `EFI/` folder from the downloaded ZIP to the USB's EFI partition
 
-The config contains **fake placeholders** that will NOT work with Apple services:
+### Step 2 — Install macOS
 
+5. Boot from USB (F12 at BIOS → select USB)
+6. Pick "Install macOS Ventura" in OpenCore boot picker
+7. Install macOS normally (format disk as APFS, follow the prompts)
+8. If Wi-Fi crashes the installer → use the no-Wi-Fi config: rename `EFI/OC/Config-Profiles/config-install-no-wifi.plist` to `config.plist`
+
+### Step 3 — Transfer EFI to internal disk (stop booting from USB)
+
+9. Boot into macOS from USB one last time
+10. Open Terminal and run:
+```bash
+/Volumes/USB_NAME/Tools/Transfer-EFI.command
 ```
-SystemSerialNumber = C02DEMO00000        <- FAKE
-MLB                = C02DEMO0000000000   <- FAKE
-SystemUUID         = 00000000-...        <- FAKE
-ROM                = 000000000000        <- FAKE
+This automatically mounts the internal EFI partition and copies everything. After this, remove the USB — the laptop boots macOS on its own.
+
+### Step 4 — Post-install fixes
+
+11. Run `Tools/Install.command` — sets up:
+    - **Trackpad**: tap-to-click, right-click, proper gesture config
+    - **Brightness overlay**: software dimming (hardware only has ~2 levels)
+12. Run `Tools/Power/Enable-Continuity.command` — sets up:
+    - **S0 pseudo-sleep**: lid close = screen off + lock + low power (not real S3)
+13. Run `Tools/Chrome/Launch-Safe.command` instead of Chrome normally — disables GPU acceleration to prevent system freezes
+
+### Step 5 — Generate SMBIOS (required for Apple services)
+
+14. Download [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS), run it, pick model `MacBookPro16,3`
+15. Edit `EFI/OC/config.plist` on the internal EFI partition — replace the FAKE values:
 ```
+SystemSerialNumber = C02DEMO00000        <- replace
+MLB                = C02DEMO0000000000   <- replace
+SystemUUID         = 00000000-...        <- replace
+ROM                = 000000000000        <- replace
+```
+Without real SMBIOS values: no iCloud, no iMessage, no FaceTime, no App Store.
 
-**Without valid SMBIOS values:**
-- iCloud won't sign in
-- iMessage won't activate
-- FaceTime won't work
-- App Store may have issues
-
-Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate valid `MacBookPro16,3` identifiers.
 
 ## Kexts included
 
@@ -217,20 +232,21 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate valid `MacBoo
 ## Repository structure
 
 ```
-EFI/                    -- Copy this to your EFI partition
-  OC/config.plist       -- Main OpenCore config
-  OC/Config-Profiles/   -- No-Wi-Fi installer config
-  OC/Kexts/             -- Kernel extensions
-  OC/ACPI/              -- Custom SSDT tables (including XOSI)
-  OC/Drivers/           -- UEFI drivers
-Tools/                  -- Post-install helpers
-  Install.command       -- Main post-install script
-  Brightness/           -- Brightness overlay (build + install)
-  Chrome/               -- Chrome safe-launch (GPU disabled)
-  Power/                -- Lid continuity / S0 pseudo-sleep
-  Diagnostics/          -- System info collection
-Experimental/           -- Touchscreen (non-functional)
-Docs/                   -- Full technical documentation
+EFI/                       -- Copy this to your EFI partition
+  OC/config.plist          -- Main OpenCore config
+  OC/Config-Profiles/      -- No-Wi-Fi installer config
+  OC/Kexts/                -- Kernel extensions
+  OC/ACPI/                 -- Custom SSDT tables (including XOSI)
+  OC/Drivers/              -- UEFI drivers
+Tools/                     -- Post-install helpers
+  Transfer-EFI.command     -- Copies EFI from USB to internal disk
+  Install.command          -- Trackpad + brightness setup
+  Brightness/              -- Brightness overlay (build + install)
+  Chrome/                  -- Chrome safe-launch (GPU disabled)
+  Power/                   -- Lid continuity / S0 pseudo-sleep
+  Diagnostics/             -- System info collection
+Experimental/              -- Touchscreen (non-functional)
+Docs/                      -- Full technical documentation
 ```
 
 ## Documentation
