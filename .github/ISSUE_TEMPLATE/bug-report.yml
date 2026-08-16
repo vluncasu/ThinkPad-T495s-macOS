@@ -1,0 +1,147 @@
+name: T495s bug report
+description: Evidence-driven report for the documented ThinkPad T495s macOS configuration
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is hardware-specific. Do not upload real SMBIOS values or unreviewed private diagnostics. Read PRIVACY.md and Docs/EVIDENCE.md before attaching files.
+
+  - type: input
+    id: machine_type
+    attributes:
+      label: ThinkPad machine type
+      description: The reference target is 20QK. State the exact type printed/reported by your machine.
+      placeholder: "20QK"
+    validations:
+      required: true
+
+  - type: input
+    id: bios
+    attributes:
+      label: BIOS version
+      placeholder: "R13ET56W 1.30"
+    validations:
+      required: true
+
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and build
+      placeholder: "Ventura 13.7.8 / 22H730"
+    validations:
+      required: true
+
+  - type: input
+    id: release
+    attributes:
+      label: EFI / repository version
+      placeholder: "17.1-github-public-docs-r2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: subsystem
+    attributes:
+      label: Primary subsystem
+      options:
+        - Boot / OpenCore
+        - CPU / AMD kernel patches
+        - GPU / NootedRed / Chrome
+        - Brightness
+        - Keyboard / touchpad
+        - Touchscreen experiment
+        - Native sleep / wake
+        - Wi-Fi
+        - Bluetooth
+        - Ethernet
+        - Audio / startup chime
+        - USB / camera / storage / SD
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: profile
+    attributes:
+      label: OpenCore configuration profile
+      options:
+        - Normal config.plist
+        - Installer no-Wi-Fi profile
+        - Custom/modified profile
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: chrome_gpu
+    attributes:
+      label: Chrome hardware acceleration state
+      options:
+        - Not applicable
+        - Enabled
+        - Disabled
+        - Unknown
+
+  - type: dropdown
+    id: brightness_overlay
+    attributes:
+      label: v17 brightness overlay state
+      options:
+        - Not applicable
+        - Enabled
+        - Disabled
+        - Not installed
+        - Unknown
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes from the repository snapshot
+      description: List every kext, ACPI, boot-arg, BIOS, pmset, USB-map or helper change. Write "none" if unmodified.
+      placeholder: "none"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction steps
+      description: Give the shortest sequence that reproduces the failure and state whether it reproduces every time.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized diagnostic evidence
+      description: Paste only relevant lines. For GPU use gpuRestart/panic evidence; for sleep use pmset/assertions; for touchscreen use IOUSB/IOHID enumeration. Attach a sanitized archive only when necessary.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Publication checks
+      options:
+        - label: I removed real SMBIOS identifiers and other private data.
+          required: true
+        - label: I distinguished configuration from observed end-to-end behavior.
+          required: true
+        - label: I stated whether the EFI differs from the repository snapshot.
+          required: true

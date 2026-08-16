@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read current status before reporting
+    url: ../../blob/main/Docs/STATUS.md
+    about: Check the validated status, known workarounds and unresolved blockers before opening an issue.
+  - name: Read known issues
+    url: ../../blob/main/Docs/KNOWN-ISSUES.md
+    about: Confirm that the behavior is not already documented.

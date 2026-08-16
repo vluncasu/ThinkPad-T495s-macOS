@@ -1,0 +1,24 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - github-actions[bot]
+  categories:
+    - title: Runtime changes
+      labels:
+        - runtime
+        - EFI
+        - graphics
+        - power
+        - input
+    - title: Documentation and diagnostics
+      labels:
+        - documentation
+        - diagnostics
+    - title: Experimental work
+      labels:
+        - experimental
+    - title: Other changes
+      labels:
+        - "*"
