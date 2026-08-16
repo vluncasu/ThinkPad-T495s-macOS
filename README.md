@@ -222,6 +222,9 @@ ROM                = 000000000000        <- replace
 ```
 Without real SMBIOS values: no iCloud, no iMessage, no FaceTime, no App Store.
 
+### macOS version note
+
+Upgrading to other macOS versions (Sonoma, Sequoia) is possible with this EFI, but only **macOS Ventura 13.7.8** has been tested and verified on this hardware. Start with Ventura for a stable experience. If upgrading later, back up the working EFI first.
 
 ## Kexts included
 
