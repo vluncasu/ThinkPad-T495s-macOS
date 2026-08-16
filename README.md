@@ -169,16 +169,37 @@ This is referred to as **S0-based emulated clamshell sleep** or **lid continuity
 5. Boot from USB (F12 at BIOS → select USB)
 6. Pick "Install macOS Ventura" in OpenCore boot picker
 7. Install macOS normally (format disk as APFS, follow the prompts)
-8. If Wi-Fi crashes the installer → use the no-Wi-Fi config: rename `EFI/OC/Config-Profiles/config-install-no-wifi.plist` to `config.plist`
+8. **Wi-Fi note:** Intel Wi-Fi (AirportItlwm) can crash the macOS installer on this hardware. If the installer freezes or kernel panics, install without Wi-Fi — use Ethernet or no network at all. To disable Wi-Fi in the bootloader: on the USB EFI partition, replace `EFI/OC/config.plist` with `EFI/OC/Config-Profiles/config-install-no-wifi.plist` (just rename it to `config.plist`). After macOS is installed, put the original `config.plist` back — Wi-Fi works fine in the installed system.
 
 ### Step 3 — Transfer EFI to internal disk (stop booting from USB)
+
+Right now macOS only boots because the USB has the EFI bootloader. To boot without the USB, the EFI folder must be copied to the internal disk's hidden EFI partition.
+
+**Automatic (recommended):**
 
 9. Boot into macOS from USB one last time
 10. Open Terminal and run:
 ```bash
 /Volumes/USB_NAME/Tools/Transfer-EFI.command
 ```
-This automatically mounts the internal EFI partition and copies everything. After this, remove the USB — the laptop boots macOS on its own.
+
+**Manual (if the script doesn't work):**
+
+```bash
+# Find your internal disk's EFI partition (usually disk0s1)
+diskutil list
+
+# Mount it
+sudo diskutil mount disk0s1
+
+# Copy EFI from USB to internal
+sudo cp -R /Volumes/USB_NAME/EFI /Volumes/EFI/
+
+# Verify
+ls /Volumes/EFI/EFI/OC/config.plist
+```
+
+After this, remove the USB and reboot. The laptop boots macOS from the internal disk on its own.
 
 ### Step 4 — Post-install fixes
 
