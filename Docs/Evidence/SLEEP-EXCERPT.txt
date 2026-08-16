@@ -1,0 +1,69 @@
+T495s PUBLIC EVIDENCE EXCERPT
+Subsystem: native sleep / wake
+Source class: sanitized excerpt from target-machine pmset diagnostics
+Primary failed-test source: T495s-sleep-before-20260801-032728 + T495s-sleep-after-20260801-033044
+Date: 2026-08-01
+
+CONTROLLED TEST CONFIGURATION
+
+Relevant power configuration before the failed test included:
+
+  disablesleep = 0
+  sleep = 10
+  standby = 0
+  autopoweroff = 0
+  hibernatemode = 0
+  powernap = 0
+  tcpkeepalive = 0
+  proximitywake = 0
+  ttyskeepawake = 0
+  lidwake = 1
+
+PRE-TEST CONFOUNDERS OBSERVED
+
+Prior to the final sleep command, diagnostics showed:
+
+  screensharingd PreventSystemSleep assertion
+  screensharingd UserIsActive assertion
+  external-media-mounted assertion
+
+The remote-user PreventSystemSleep assertion was released before the tested sleep entry, and the remote UserIsActive client died shortly before sleep. External media remained an observed contextual factor.
+
+FAILED CONTROLLED TRANSITION
+
+03:27:56  screensharingd released PreventSystemSleep
+03:28:11  screensharingd UserIsActive client died
+03:28:14  Entering Sleep state due to 'Software Sleep'
+            battery charge reported at 82 percent
+            TCPKeepAlive disabled
+03:28:19  Sleep notification delays included:
+            Bluetooth approximately 506 ms
+            apsd approximately 4859 ms
+03:29:51  New boot/powerd context; software-initiated shutdown cause recorded
+
+No completed Wake event is recorded between the 03:28:14 sleep entry and the 03:29:51 new boot context.
+
+EARLIER SUCCESSFUL WAKE OBSERVATION
+
+00:30:55  Entering Sleep state
+00:30:59  DarkWake due to HID Activity
+00:31:00  DarkWake to FullWake due to HID Activity
+00:31:00  WakeTime: 0.541 sec
+
+A separate earlier sequence also recorded a DarkWake followed later by FullWake with WakeTime 1.831 sec.
+
+INTERPRETATION BOUNDARY
+
+Supported conclusion:
+  the system can enter macOS sleep;
+  at least some wake transitions have completed;
+  native sleep/resume is not repeatable/reliable on the documented configuration;
+  normal lid-close/open cannot be declared fixed.
+
+Not established by this excerpt:
+  every sleep transition uses a specific ACPI sleep state such as S3;
+  IOGraphicsFamily is definitively the local root cause;
+  Bluetooth/apsd delay is the root cause;
+  external media is the root cause.
+
+The repository classifies native sleep/resume as primary unresolved issue 2.

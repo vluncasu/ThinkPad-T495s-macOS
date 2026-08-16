@@ -1,0 +1,57 @@
+T495s PUBLIC EVIDENCE EXCERPT
+Subsystem: accelerated GPU / Chrome
+Source class: sanitized excerpt from target-machine diagnostic bundle
+Source capture: T495s-Chrome-After-20260801-035133
+Date: 2026-08-01
+
+PRIMARY gpuRestart OBSERVATION
+
+Event: GPU Reset
+Application: Google Chrome Helper
+Graphics Hardware: AMD Radeon Vega 10
+Restart Channel: 13 GFX
+FirstPendingCB: Google Chrome Helper
+SubmitContext: Metal
+VMID: 11
+
+Associated graphics-stack messages captured in the same investigation include:
+
+IOAcceleratorFamily2:
+  timeout waiting for AMDRadeonAccelerator stamp
+  signaling hardware error
+  GPU restart signaled/enqueued
+
+AMDRadeonX5000:
+  channel 0 GFX event timeout
+  channel 0 GFX is hung
+
+ASSOCIATED PANIC OBSERVATION
+
+Two retained panic reports from the same investigation contain:
+
+  NMIPI for unresponsive processor: TLB flush timeout
+
+with a graphics diagnosis backtrace containing:
+
+  AMDRadeonX5000_AMDVega10Hardware::writeDiagnosisReport
+  AMDRadeonX5000_AMDGraphicsAccelerator::writeDiagnosisReport
+  AMDRadeonX5000_AMDAccelChannel::getHardwareDiagnosisReport
+  IOAcceleratorFamily2 restart/hardwareErrorEvent path
+
+Two additional panic reports contain processor rendezvous/response timeout evidence, including one observation involving AMDRyzenCPUPowerManagement and another involving SMCProcessorAMD callbacks.
+
+INTERPRETATION BOUNDARY
+
+Supported conclusion:
+  accelerated Chrome is a valid reproducer for an AMD graphics/GFX-channel failure on this target.
+
+Supported user control observation:
+  Chrome operates when hardware acceleration is disabled.
+
+Not established by this excerpt:
+  Chrome itself is the root cause;
+  NootedRed alone is the root cause;
+  every Metal workload fails;
+  the secondary CPU/power callback panic observations are independent root causes.
+
+The repository therefore classifies accelerated GPU stability as primary unresolved issue 1 and treats the additional panic signatures as secondary observations pending independent reproduction.

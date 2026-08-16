@@ -1,0 +1,44 @@
+T495s PUBLIC EVIDENCE EXCERPT
+Subsystem: experimental touchscreen
+Source class: sanitized excerpt from target-machine enumeration probe
+Source capture: T495s-touchscreen-probe-20260801-023031
+Date: 2026-08-01
+
+EXPECTED TARGET
+
+Product label from Windows-side evidence:
+  USB2IIC_CTP_CONTROL
+
+VID:
+  0x1A86
+
+PID:
+  0xE5E3
+
+FOCUSED macOS PROBE RESULT
+
+The probe explicitly searched for VID 0x1A86 / PID 0xE5E3.
+
+Result:
+  TOUCHSCREEN IS STILL NOT ENUMERATED BY macOS
+
+The experimental IOHID probe successfully opened IOHIDManager and waited for the exact target:
+
+  IOHIDManagerOpen: success
+  waiting for VID 0x1A86 PID 0xE5E3
+
+No matching target-device callback was recorded.
+
+RELATED INTERNAL USB OBSERVATIONS
+
+The internal USB path still exposes other devices, including the Genesys internal hub. Separate captured profiler evidence identifies the internal hub/camera/Bluetooth path documented in HARDWARE.md and STORAGE-USB.md.
+
+INTERPRETATION BOUNDARY
+
+Supported conclusion:
+  the physical touchscreen controller is not currently available to the experimental macOS userspace bridge through normal IOUSB/IOHID enumeration.
+
+Not established:
+  the exact missing electrical/internal port route;
+  that a production USB-map entry should be added blindly;
+  that the userspace bridge is capable of real touch input on this machine before enumeration is solved.

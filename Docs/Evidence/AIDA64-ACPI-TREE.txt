@@ -1,0 +1,3415 @@
+------[ AIDA64 v7.65.7400 ]------
+
+------[ Motherboard Info ]------
+
+Motherboard ID      : <DMI>
+Motherboard Model   : Lenovo ThinkPad T495s
+Motherboard Chipset : AMD K17.1 FCH, AMD K17.1 IMC
+
+DMI MB Manufacturer : LENOVO
+DMI MB Product      : 20QKS0SD17
+DMI MB Version      : SDK0J40697 WIN
+DMI SYS Manufacturer: LENOVO
+DMI SYS Product     : 20QKS0SD17
+DMI SYS Version     : ThinkPad T495s
+DMI BIOS Version    : R13ET56W(1.30 )
+
+------[ ACPI Tree ]------
+
+Root
+  _GPE
+    _L08
+    _L19
+
+  _PR_
+    C000
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C001
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C002
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C003
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C004
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C005
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C006
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+    C007
+      _PCT
+      _PSS
+      XPSS
+      _PSD
+      PPCV
+      _PPC
+      _CST
+      _CSD
+
+  _SB_
+    PWRB
+      _HID
+      _STA
+
+    PCI0
+      _ADR
+      _UID
+      _BBN
+      AMHP
+      VGPU
+      _HID
+      _CID
+      SUPP
+      CTRL
+      _OSC
+      _INI
+      BAR0
+      (  )
+      BINX
+      BDAT
+      MUTE
+      B0FN
+      NBMS
+      (  )
+      MIDX
+      MIDR
+      NBXP
+      (  )
+      NBXI
+      NBXD
+      NBMM
+      NBXM
+      NBMR
+      NBMW
+      NBXR
+      NBXW
+      GFXM
+      GPPM
+      GPPX
+      XPTR
+      K8ST
+      (  )
+      C0_0
+      C2_0
+      C4_0
+      C6_0
+      C8_0
+      CA_0
+      CC_0
+      CE_0
+      D0_0
+      D2_0
+      D4_0
+      D6_0
+      D8_0
+      DA_0
+      DC_0
+      DE_0
+      E0_0
+      E2_0
+      E4_0
+      E6_0
+      E8_0
+      EA_0
+      EC_0
+      EE_0
+      F0_0
+      F2_0
+      F4_0
+      F6_0
+      F8_0
+      FA_0
+      FC_0
+      FE_0
+      TOML
+      TOMH
+      RSRC
+      _CRS
+      MEMR
+        _HID
+        MEM1
+        _CRS
+
+      _PRT
+      BAR1
+      (  )
+      NBBA
+      GPP0
+        _ADR
+        _PRW
+        _PRT
+
+      GPP1
+        _ADR
+        _PRW
+        _PRT
+        DEV0
+          _ADR
+          _RMV
+
+        DEV1
+          _ADR
+          _RMV
+
+        PXSX
+          _ADR
+          RPXX
+          (  )
+          VDID
+          FLDR
+          (  )
+          DCAP
+          DCTR
+          WIST
+          WRST
+            _STA
+            _ON_
+            _OFF
+            _RST
+
+          _PRR
+
+      GPP2
+        _ADR
+        _PRW
+        _PRT
+
+      GPP3
+        _ADR
+        _PRW
+        _PRT
+
+      GPP4
+        _ADR
+        _PRW
+        PCG1
+        (  )
+        (  )
+        LNKC
+        _PS0
+        _PS3
+        L850
+          _ADR
+          _PRW
+          PCG2
+          (  )
+          VID0
+          DID0
+          (  )
+          APML
+          _RST
+          LFCT
+
+        _PRT
+
+      GPP5
+        _ADR
+        _PRW
+        _PRT
+
+      GPP6
+        _ADR
+        _PRW
+        _PRT
+
+      GP17
+        _ADR
+        _PRW
+        _PRT
+        VGA_
+          _ADR
+          AF7E
+          _STA
+          DOSA
+          _DOS
+          _DOD
+          LCD_
+            _ADR
+            BRLV
+            _BCL
+            _BCM
+            _DDC
+
+          CAMF
+            _ADR
+            _STA
+            _PS0
+            _PS3
+
+          CAMR
+            _ADR
+            _STA
+            _PS0
+            _PS3
+
+          RCPU
+          RCPD
+          FCPU
+          FCPD
+          ICLE
+          ICLD
+          M207
+          M208
+          M204
+          ATCS
+          ATC0
+          ATC1
+          ATC2
+          ATC3
+          ATC4
+          ATC6
+          ATC7
+          XTRM
+          M189
+          M190
+          M191
+          ATPX
+          PX00
+          PX01
+          PX02
+          PX03
+          PX04
+          PX08
+          PX09
+          PX10
+          PX11
+          ATIB
+          ATIF
+          AF00
+          AF01
+          M164
+          M210
+          M211
+          M212
+          M213
+          M214
+          M215
+          M303
+          M304
+          SSDM
+          SCDY
+          AF02
+          AF03
+          AF04
+          AF15
+          AF16
+          AFN0
+          AFN1
+          AFN2
+          AFN3
+          AFN4
+          AFN5
+          AFN6
+          AFN7
+          AFN8
+          AFNC
+
+        PSP_
+          _ADR
+
+        ACP_
+          _ADR
+          _PS0
+          _PS3
+
+        AZAL
+          _ADR
+          _PS0
+          _PS3
+
+        MP2C
+          _ADR
+
+        XHC0
+          _ADR
+          _S3D
+          USPS
+          PUBS
+            _STA
+            _ON_
+            _OFF
+
+          _PR0
+          _PRW
+          _S0W
+          RHUB
+            _ADR
+            UPCN
+            UPC4
+            UPC3
+            UPCP
+            PLDN
+            PLD1
+            PLD2
+            PLD3
+            PLD4
+            HS01
+              _ADR
+              _UPC
+              _PLD
+
+            HS02
+              _ADR
+              _UPC
+              _PLD
+
+            HS03
+              _ADR
+              _UPC
+              _PLD
+
+            HS04
+              _ADR
+              _UPC
+              _PLD
+
+            SS01
+              _ADR
+              _UPC
+              _PLD
+
+            SS02
+              _ADR
+              _UPC
+              _PLD
+
+            SS03
+              _ADR
+              _UPC
+              _PLD
+
+            SS04
+              _ADR
+              _UPC
+              _PLD
+
+        XHC1
+          _ADR
+          _PRW
+          _S0W
+          RHUB
+            _ADR
+            UPCN
+            UPCP
+            PLDC
+            PLDW
+            PLDN
+            UPCI
+            PLDI
+            PRT1
+              _ADR
+              _UPC
+
+            PRT2
+              _ADR
+              _UPC
+              PR21
+                _ADR
+                _UPC
+                _PLD
+                CAMA
+                  _ADR
+                  _PLD
+                  _STA
+
+                CMIR
+                  _ADR
+                  _PLD
+                  _STA
+
+              PR22
+                _ADR
+                _UPC
+                _PLD
+
+              PR23
+                _ADR
+                _UPC
+                _PLD
+
+              PR24
+                _ADR
+                _UPC
+                _PLD
+
+            PRT3
+              _ADR
+              _UPC
+
+      GP18
+        _ADR
+        _PRW
+        _PRT
+        SATA
+          _ADR
+          PRT0
+            _ADR
+            DIP0
+            FDEV
+            FDRP
+            HDTF
+            HETF
+            ERTF
+            HPTF
+            HQTF
+            HXTF
+            DDTF
+            DTAT
+            DTFT
+            DGTF
+            GTAT
+            GTFT
+            _SDD
+            _GTF
+
+          PRT1
+            _ADR
+            DIP0
+            FDEV
+            FDRP
+            HDTF
+            HETF
+            ERTF
+            HPTF
+            HQTF
+            HXTF
+            DDTF
+            DTAT
+            DTFT
+            DGTF
+            GTAT
+            GTFT
+            _SDD
+            _GTF
+
+      SMB_
+        _ADR
+        SBRV
+        (  )
+        RVID
+        (  )
+        I1F_
+        I12F
+        (  )
+        (  )
+        G31O
+        (  )
+        (  )
+        ACIR
+        PMIO
+        (  )
+        INPM
+        DAPM
+        (  )
+        HPAD
+        (  )
+        P1EB
+        ERMG
+        (  )
+        (  )
+        (  )
+        P2IS
+        P2WS
+        (  )
+        (  )
+        GE10
+        (  )
+        (  )
+        GE11
+        (  )
+        (  )
+        P08S
+        (  )
+        (  )
+        GE12
+        (  )
+        GS17
+        (  )
+        GV17
+        GE17
+        (  )
+        (  )
+        P33I
+        (  )
+        (  )
+        P37I
+        (  )
+        (  )
+        PLEN
+        (  )
+        (  )
+        P3BI
+        (  )
+        (  )
+        P40I
+        (  )
+        (  )
+        P0CO
+        (  )
+        (  )
+        P0DO
+        (  )
+        (  )
+        P10S
+        (  )
+        (  )
+        P61I
+        (  )
+        (  )
+        P62I
+        (  )
+        (  )
+        P63I
+        (  )
+        (  )
+        P64I
+        (  )
+        (  )
+        BID1
+        ERMM
+        (  )
+        (  )
+        (  )
+        E01S
+        (  )
+        E05S
+        (  )
+        E15S
+        E16S
+        (  )
+        E22S
+        (  )
+        (  )
+        E01E
+        (  )
+        E05E
+        (  )
+        E15E
+        E16E
+        (  )
+        E22E
+        (  )
+        (  )
+        E01C
+        (  )
+        E05C
+        (  )
+        E10C
+        (  )
+        E15C
+        E16C
+        (  )
+        E21C
+        E22C
+        (  )
+        E26C
+        (  )
+        (  )
+        E01L
+        (  )
+        E05L
+        (  )
+        E15L
+        E16L
+        (  )
+        E22L
+        (  )
+        (  )
+        CLPS
+        (  )
+        (  )
+        G15A
+        (  )
+        (  )
+        SRBT
+        (  )
+        (  )
+        SLPS
+        (  )
+        (  )
+        SPBT
+        (  )
+        (  )
+        MT3A
+        (  )
+        EPNM
+        DPPF
+        (  )
+        (  )
+        PWDE
+        (  )
+        (  )
+        ALLS
+        (  )
+        (  )
+        TFTE
+        (  )
+        BLNK
+        (  )
+        PHYD
+        (  )
+        RSTU
+        US5R
+        (  )
+        F0CT
+        F0MS
+        F0FQ
+        F0LD
+        F0MD
+        F0MP
+        LT0L
+        LT0H
+        MT0L
+        MT0H
+        HT0L
+        HT0H
+        LRG0
+        LHC0
+        (  )
+        F1CT
+        F1MS
+        F1FQ
+        F1LD
+        F1MD
+        F1MP
+        LT1L
+        LT1H
+        MT1L
+        MT1H
+        HT1L
+        HT1H
+        LRG1
+        LHC1
+        (  )
+        F2CT
+        F2MS
+        F2FQ
+        F2LD
+        F2MD
+        F2MP
+        LT2L
+        LT2H
+        MT2L
+        MT2H
+        HT2L
+        HT2H
+        LRG2
+        LHC2
+        (  )
+        F3CT
+        F3MS
+        F3FQ
+        F3LD
+        F3MD
+        F3MP
+        LT3L
+        LT3H
+        MT3L
+        MT3H
+        HT3L
+        HT3H
+        LRG3
+        LHC3
+        (  )
+        SEC_
+        (  )
+        MIN_
+        (  )
+        MX01
+        (  )
+        MX07
+        (  )
+        MX14
+        MX15
+        MX16
+        (  )
+        MX21
+        MX22
+        MX23
+        (  )
+        MX27
+        MX28
+        (  )
+        MX32
+        MX33
+        MX34
+        (  )
+        MX41
+        (  )
+        MX44
+        (  )
+        MX51
+        (  )
+        MX53
+        (  )
+        MX57
+        MX58
+        MX59
+        (  )
+        MX66
+        (  )
+        M102
+        (  )
+        M108
+        (  )
+        M170
+        (  )
+        M175
+        M176
+        (  )
+        M180
+        M181
+        M182
+        (  )
+        M197
+        (  )
+        M199
+        M200
+        (  )
+        MS00
+        MS01
+        MS02
+        MS03
+        MS04
+        (  )
+        MS40
+        (  )
+        (  )
+        ECES
+        P1E0
+        (  )
+        (  )
+        PEWS
+        WSTA
+        (  )
+        PEWD
+        TRMD
+        HTCD
+        ABIO
+        (  )
+        INAB
+        DAAB
+        RDAB
+        WTAB
+        RWAB
+        CABR
+
+      SDIO
+        _ADR
+        _CRS
+        WLAN
+          _ADR
+          _STA
+          _INI
+
+      LPC0
+        _ADR
+        PIRQ
+        (  )
+        PIID
+        PIDA
+        (  )
+        PIRA
+        PIRB
+        PIRC
+        PIRD
+        PIRE
+        PIRF
+        PIRG
+        PIRH
+        (  )
+        SIRA
+        SIRB
+        SIRC
+        SIRD
+        PIRS
+        (  )
+        HDAD
+        (  )
+        SDCL
+        (  )
+        SDIO
+        (  )
+        USB1
+        (  )
+        USB3
+        (  )
+        SATA
+        (  )
+        GIOC
+        (  )
+        I2C0
+        I2C1
+        I2C2
+        I2C3
+        URT0
+        URT1
+        IPRS
+        UPRS
+        KBDD
+        (  )
+        PD64
+        DSPI
+        INTA
+        INTB
+        INTC
+        INTD
+        LNKA
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKB
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKC
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKD
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKE
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKF
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKG
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LNKH
+          _HID
+          _UID
+          _STA
+          _PRS
+          _DIS
+          _CRS
+          _SRS
+
+        LPCR
+        (  )
+        PCMD
+        (  )
+        CMA0
+        CMA1
+        CMA2
+        CMA3
+        CMA4
+        CMA5
+        CMA6
+        CMA7
+        CMB0
+        CMB1
+        CMB2
+        CMB3
+        CMB4
+        CMB5
+        CMB6
+        CMB7
+        DMAC
+          _HID
+          _CRS
+
+        MATH
+          _HID
+          _CRS
+
+        PIC_
+          _HID
+          _CRS
+
+        RTC_
+          _HID
+          BUF0
+          BUF1
+          _CRS
+
+        SPKR
+          _HID
+          _CRS
+
+        TIME
+          _HID
+          _CRS
+
+        SYSR
+          _HID
+          _CRS
+
+        LPCS
+        (  )
+        SPBA
+        MEM_
+          _HID
+          MSRC
+          _CRS
+          _STA
+
+        KBD_
+          _HID
+          _CID
+          _CRS
+
+        MOU_
+          _HID
+          _CID
+          _CRS
+          MHID
+
+        EC0_
+          _HID
+          _UID
+          _GPE
+          _REG
+          EECL
+          UCCI
+          ECOR
+          (  )
+          HDBM
+          (  )
+          HKLK
+          HFNE
+          (  )
+          (  )
+          HLDM
+          (  )
+          BBLS
+          BTCM
+          (  )
+          (  )
+          (  )
+          HBPR
+          BTPC
+          (  )
+          HDUE
+          (  )
+          SNLK
+          (  )
+          (  )
+          HAUM
+          (  )
+          HSPA
+          (  )
+          HSUN
+          HSRP
+          (  )
+          HLCL
+          (  )
+          CALM
+          (  )
+          HFNS
+          (  )
+          (  )
+          NULS
+          (  )
+          HAM0
+          HAM1
+          HAM2
+          HAM3
+          HAM4
+          HAM5
+          HAM6
+          HAM7
+          HAM8
+          HAM9
+          HAMA
+          HAMB
+          HAMC
+          HAMD
+          HAME
+          HAMF
+          (  )
+          HANT
+          (  )
+          (  )
+          HANA
+          (  )
+          (  )
+          (  )
+          SKEM
+          (  )
+          (  )
+          HATR
+          HT0H
+          HT0L
+          HT1H
+          HT1L
+          HFSP
+          (  )
+          HMUT
+          (  )
+          (  )
+          HUWB
+          (  )
+          VPON
+          VRST
+          HWPM
+          HWLB
+          HWLO
+          HWDK
+          HWFN
+          HWBT
+          HWRI
+          HWBU
+          HWLU
+          (  )
+          (  )
+          PIBS
+          (  )
+          HPLO
+          (  )
+          HWAC
+          HB0S
+          HB0A
+          HB1S
+          HB1A
+          HCMU
+          (  )
+          OVRQ
+          DCBD
+          DCWL
+          DCWW
+          HB1I
+          (  )
+          KBLT
+          BTPW
+          FNKC
+          (  )
+          BDPW
+          BDDT
+          HUBB
+          (  )
+          (  )
+          BTWK
+          HPLD
+          (  )
+          HPAC
+          BTST
+          PSST
+          (  )
+          HPBU
+          (  )
+          HBID
+          (  )
+          HBCS
+          HPNF
+          (  )
+          GSTS
+          (  )
+          HLBU
+          DOCD
+          HCBL
+          (  )
+          SLUL
+          (  )
+          ACAT
+          (  )
+          ELNK
+          FPSU
+          (  )
+          (  )
+          HTMH
+          HTML
+          HWAK
+          HMPR
+          (  )
+          HMDN
+          (  )
+          TMP0
+          TMP3
+          (  )
+          GTMP
+          (  )
+          (  )
+          HIID
+          (  )
+          HFNI
+          HSPD
+          (  )
+          TSL0
+          TSR0
+          TSL1
+          TSR1
+          TSL2
+          TSR2
+          TSL3
+          TSR3
+          GPUT
+          (  )
+          HDAA
+          HDAB
+          HDAC
+          RCBD
+          RCWL
+          RCWW
+          (  )
+          (  )
+          HDEN
+          HDEP
+          HDEM
+          HDES
+          (  )
+          ATMX
+          HWAT
+          (  )
+          PWMH
+          PWML
+          (  )
+          FNSW
+          (  )
+          (  )
+          (  )
+          HDDD
+          (  )
+          HUBS
+          (  )
+          _INI
+          _CRS
+          LED_
+          BAON
+          WBON
+          BEEP
+          EVNT
+          CHKS
+          LPMD
+          CLPM
+          SLX1
+          FPX1
+          SPX1
+          SLT1
+          FPT1
+          SPT1
+          SLX2
+          FPX2
+          SPX2
+          SLT2
+          FPT2
+          SPT2
+          SPL3
+          FPP3
+          SPP3
+          MCPU
+          _Q10
+          _Q11
+          _Q12
+          _Q13
+          _Q64
+          _Q16
+          _Q17
+          _Q18
+          _Q1A
+          _Q1B
+          _Q1F
+          _Q1C
+          _Q1D
+          _Q66
+          _Q67
+          _Q68
+          _Q69
+          _Q93
+          _Q94
+          _Q26
+          _Q27
+          _Q9A
+          _Q2A
+          _Q2B
+          _Q3D
+          _Q48
+          _Q49
+          _Q7F
+          _Q4E
+          _Q46
+          _Q8A
+          _Q6B
+          _Q7D
+          _Q7E
+          _Q7B
+          _Q88
+          _Q78
+          TRBO
+          (  )
+          CPBP
+          _Q84
+          _Q85
+          _Q95
+          _Q96
+          _Q28
+          _Q86
+          _Q87
+          _Q8D
+          _Q8E
+          _Q8B
+          _Q8C
+          _Q22
+          _Q4A
+          _Q4B
+          _Q24
+          BFCC
+          BATW
+          (  )
+          (  )
+          SBRC
+          SBFC
+          SBAE
+          SBRS
+          SBAC
+          SBVO
+          SBAF
+          SBBS
+          (  )
+          (  )
+          SBBM
+          SBMD
+          SBCC
+          (  )
+          (  )
+          SBDC
+          SBDV
+          SBOM
+          SBSI
+          SBDT
+          SBSN
+          (  )
+          (  )
+          SBCH
+          (  )
+          (  )
+          SBMN
+          (  )
+          (  )
+          SBDN
+          BATM
+          GBIF
+          GBIX
+          GBST
+          AJTP
+          BAT0
+            _HID
+            _UID
+            _PCL
+            B0ST
+            BT0I
+            BX0I
+            BT0P
+            _STA
+            _BIF
+            _BIX
+            _BST
+
+          AC__
+            _HID
+            _UID
+            _PCL
+            XX00
+            ACDC
+            _PSR
+            _STA
+
+          HKEY
+            _HID
+            _STA
+            _INI
+            MHKV
+            DHKC
+            DHKB
+            DHKH
+            DHKW
+            DHKS
+            DHKD
+            DHKN
+            DHKE
+            DHKF
+            DHKT
+            DHWW
+            XDHK
+            MHKA
+            MHKN
+            MHKK
+            MHKM
+            MHKS
+            MHKC
+            MHKP
+            MHKE
+            MHKQ
+            MHKB
+            MHKD
+            MHQC
+            MHGC
+            MHSC
+            CKC4
+            MHQE
+            MHGE
+            MHSE
+            UAWO
+            MLCG
+            MLCS
+            DSSG
+            DSSS
+            SBSG
+            SBSS
+            PBLG
+            PBLS
+            PMSG
+            PMSS
+            ISSG
+            ISSS
+            FFSG
+            FFSS
+            GMKS
+            SMKS
+            GSKL
+            SSKL
+            INSG
+            INSS
+            INDV
+            MHQI
+            MHGI
+            MHSI
+            MMTG
+            MMTS
+            PWMC
+            PWMG
+            SBIG
+            GSSS
+            SSSS
+            TSSS
+            CSSS
+            GSMS
+            SSMS
+            SHDA
+            GHSL
+            SHSL
+            WGFL
+            WSIF
+            WLSW
+            GWLS
+            SWLS
+            GWLN
+            SWLN
+            GWAN
+            SWAN
+            GBDC
+            SBDC
+            LPWS
+            LPWC
+            WPWS
+            WPWC
+            BPWS
+            BPWC
+            WGIN
+            WGPS
+            WGWK
+            BFWM
+            MHCF
+            MHPF
+            MHIF
+            MHDM
+            PSSG
+            PSSS
+            PSBS
+            BICG
+            BICS
+            BCTG
+            BCCS
+            BCSG
+            BCSS
+            BDSG
+            BDSS
+            GILN
+            SILN
+            GLSI
+            GDLN
+            SDLN
+            FPSW
+            GLFP
+            SLFP
+            SLX1
+            FPX1
+            SPX1
+            TCX1
+            STX1
+            SLT1
+            FPT1
+            SPT1
+            TCT1
+            STT1
+            SLX2
+            FPX2
+            SPX2
+            TCX2
+            STX2
+            SLT2
+            FPT2
+            SPT2
+            TCT2
+            STT2
+            TCL3
+            STC3
+            SPL3
+            FPP3
+            SPP3
+            SPL4
+            FPP4
+            SPP4
+            DYTC
+
+          _Q6A
+          _Q3F
+          _Q74
+          BTBF
+          BTIF
+          ECMM
+          (  )
+          (  )
+          (  )
+          ACOS
+          (  )
+          PETL
+          (  )
+          (  )
+          SSTA
+          (  )
+          (  )
+          PMAX
+          (  )
+          DYTM
+          (  )
+          (  )
+          ERIB
+          ERBD
+          (  )
+          CPID
+          (  )
+          (  )
+          OSTT
+          OSST
+          THLT
+          TCNL
+          MODE
+          (  )
+          INIT
+          FAN1
+          FAN2
+          FANT
+          SKNM
+          SDTM
+          FSSN
+          FANU
+          PTVL
+          (  )
+          SWTO
+          TTHR
+          TTHM
+          THTL
+          (  )
+          CTMP
+          CTML
+          SKTA
+          SKTB
+          SKTC
+          (  )
+          NTMP
+          CPUJ
+          CPNM
+          (  )
+          (  )
+          (  )
+          LGBF
+          BTLF
+          (  )
+          SWOL
+          (  )
+          SMCM
+          SMP1
+          SMP2
+          SMP3
+          SMP4
+          (  )
+          DWOL
+          (  )
+          TWBT
+          T2BT
+          ECMP
+          (  )
+          (  )
+          GPEL
+          FAMX
+          FANG
+          FANW
+          TUVR
+          PCLK
+          GCLK
+          APCL
+          GPCL
+          CMFC
+          ECMS
+          (  )
+          INDX
+          DATA
+          RECM
+          WECM
+          _Q43
+          SAUM
+          BRTW
+          BRTB
+          _Q14
+          _Q15
+          BFRQ
+          _Q19
+          _Q63
+          _Q70
+          _Q72
+          _Q73
+          FNST
+          _Q41
+          ATMC
+          ITSD
+            _HID
+            _STA
+
+          _Q40
+          ECRG
+          (  )
+          (  )
+          EMPR
+          (  )
+          EMDN
+          EADD
+          ECMD
+          ED00
+          ED01
+          ED02
+          ED03
+          ED04
+          ED05
+          ED06
+          ED07
+          ED08
+          ED09
+          ED0A
+          ED0B
+          ED0C
+          ED0D
+          ED0E
+          ED0F
+          (  )
+          ECNT
+          _Q4F
+
+      SMB1
+        _HID
+        _CRS
+        _STA
+
+    WMIW
+      _HID
+      _UID
+      _WDG
+      WMBC
+      WQFE
+
+    SDRT
+    LID_
+      _HID
+      _LID
+      _PRW
+      _PSW
+
+    SLPB
+      _HID
+      _PRW
+      _PSW
+
+    WMI1
+      _HID
+      _UID
+      _WDG
+      RETN
+      ITEM
+      VSEL
+      VLST
+      PENC
+      PKBD
+      PTYP
+      MWMI
+      PCFG
+      IBUF
+      ILEN
+      PSTR
+      WQA0
+      WMA1
+      WMA2
+      WMA3
+      WMA4
+      WQA5
+      WMA6
+      WMA7
+      CARG
+      SCMP
+      GITM
+      GSEL
+      SLEN
+      CLRP
+      GPAS
+      CPAS
+      SPAS
+      WSET
+      WQBA
+
+    WMI2
+      _HID
+      _UID
+      _WDG
+      PREL
+      WQA7
+      WMA8
+      ITEM
+      VSEL
+      WQA9
+      WMAA
+      WQBB
+
+    WMI3
+      _HID
+      _UID
+      _WDG
+      WMAB
+      WMAC
+      WQBC
+
+    SMIC
+    (  )
+    (  )
+    SMIB
+    SSMI
+    (  )
+    SMIW
+    ECMC
+    (  )
+    ECMI
+    ECMD
+    (  )
+    (  )
+    FRTB
+    FRTP
+    (  )
+    PEBA
+    SPIE
+    P80E
+    (  )
+    NI2C
+    IC0E
+    IC1E
+    IC2E
+    IC3E
+    IC4E
+    IC5E
+    UT0E
+    UT1E
+    (  )
+    (  )
+    ST_E
+    UT2E
+    (  )
+    EMMD
+    SDMC
+    (  )
+    XHCE
+    (  )
+    (  )
+    UT3E
+    ESPI
+    EMME
+    (  )
+    PCEF
+    (  )
+    IC0D
+    IC1D
+    IC2D
+    IC3D
+    IC4D
+    IC5D
+    UT0D
+    UT1D
+    (  )
+    (  )
+    ST_D
+    UT2D
+    (  )
+    EHCD
+    (  )
+    XHCD
+    SD_D
+    (  )
+    UT3D
+    (  )
+    EMD3
+    (  )
+    S03D
+    FW00
+    FW01
+    FW02
+    FW03
+    SDS0
+    SDS1
+    CZFG
+    (  )
+    SD10
+    EH10
+    XH10
+    STBA
+    FCFG
+    (  )
+    (  )
+    IPDE
+    IMPE
+    (  )
+    RAR2
+    (  )
+    (  )
+    LDQ0
+    (  )
+    (  )
+    AUSS
+    (  )
+    (  )
+    LCLK
+    IOMX
+    (  )
+    (  )
+    IM15
+    IM16
+    IM17
+    (  )
+    IM1F
+    IM20
+    (  )
+    IM44
+    (  )
+    IM46
+    (  )
+    IM4A
+    IM4B
+    (  )
+    IM57
+    IM58
+    (  )
+    IM68
+    IM69
+    IM6A
+    IM6B
+    (  )
+    IM6D
+    FMIS
+    (  )
+    (  )
+    (  )
+    I24M
+    FGIO
+    (  )
+    (  )
+    (  )
+    O042
+    (  )
+    (  )
+    O089
+    FACR
+    (  )
+    (  )
+    AMTD
+    (  )
+    (  )
+    RD28
+    (  )
+    RQTY
+    (  )
+    (  )
+    SD28
+    (  )
+    (  )
+    PG1A
+    EMMX
+    (  )
+    (  )
+    (  )
+    FC18
+    FC33
+    (  )
+    CD_T
+    WP_T
+    EMMB
+    (  )
+    (  )
+    E0A4
+    E0A8
+    (  )
+    E0B0
+    (  )
+    E0D0
+    (  )
+    E116
+    SPIM
+    (  )
+    (  )
+    ASCE
+    (  )
+    SSSC
+    (  )
+    STRN
+    (  )
+    BOWS
+    DOWS
+    ASSM
+    SVBF
+    S0A4
+    S0A8
+    S0B0
+    S0D0
+    S116
+    RG22
+    SAR2
+    SECR
+    RECR
+    LUIE
+    (  )
+    IER0
+    IER1
+    IER2
+    IER3
+    UOL0
+    UOL1
+    UOL2
+    UOL3
+    WUR0
+    WUR1
+    WUR2
+    WUR3
+    FRUI
+    OP80
+    SRAD
+    DSAD
+    HSAD
+    FPIC
+    (  )
+    FPII
+    FPID
+    (  )
+    (  )
+    IUA0
+    IUA1
+    (  )
+    IUA2
+    IUA3
+    SPI1
+      _HID
+      _UID
+      _STA
+      _CRS
+      ASSC
+
+    GPIO
+      _HID
+      _CID
+      _UID
+      _CRS
+      RST_
+      _STA
+
+    UBTC
+      _HID
+      _CID
+      _UID
+      _DDN
+      _ADR
+      _STA
+      _PS0
+      _PS3
+      _CRS
+      ECMS
+      (  )
+      INDX
+      DATA
+      RECM
+      WECM
+      CR01
+        _ADR
+        _UPC
+        _PLD
+
+      CR02
+        _ADR
+        _UPC
+        _PLD
+
+      USBC
+      (  )
+      VER1
+      VER2
+      RSV1
+      RSV2
+      CCI0
+      CCI1
+      CCI2
+      CCI3
+      CTL0
+      CTL1
+      CTL2
+      CTL3
+      CTL4
+      CTL5
+      CTL6
+      CTL7
+      MGI0
+      MGI1
+      MGI2
+      MGI3
+      MGI4
+      MGI5
+      MGI6
+      MGI7
+      MGI8
+      MGI9
+      MGIA
+      MGIB
+      MGIC
+      MGID
+      MGIE
+      MGIF
+      MGO0
+      MGO1
+      MGO2
+      MGO3
+      MGO4
+      MGO5
+      MGO6
+      MGO7
+      MGO8
+      MGO9
+      MGOA
+      MGOB
+      MGOC
+      MGOD
+      MGOE
+      MGOF
+      DBG0
+      (  )
+      IO80
+      NTFY
+      H5FA
+      (  )
+      HNTF
+      ECSM
+      (  )
+      HMPR
+      (  )
+      HMDN
+      HADD
+      HCMD
+      HD00
+      HD01
+      HD02
+      HD03
+      HD04
+      HD05
+      HD06
+      HD07
+      HD08
+      HD09
+      HD0A
+      HD0B
+      HD0C
+      HD0D
+      HD0E
+      HD0F
+      (  )
+      HCNT
+      CHKM
+      ECSI
+      (  )
+      (  )
+      EMPR
+      (  )
+      EMDN
+      EADD
+      ECMD
+      ED00
+      ED01
+      ED02
+      ED03
+      ED04
+      ED05
+      ED06
+      ED07
+      ED08
+      ED09
+      ED0A
+      ED0B
+      ED0C
+      ED0D
+      ED0E
+      ED0F
+      (  )
+      ECNT
+      RSTC
+      UBSY
+      ECWR
+      ECRD
+      _DSM
+
+    AGRB
+    ADBG
+    ADAT
+    ALIB
+    A023
+    A084
+    A085
+    AD00
+    DK00
+    A020
+    A024
+    A025
+    AP01
+    AP02
+    AP03
+    AP05
+    AP0B
+    AP10
+    A033
+    A037
+    A038
+    A039
+    A040
+    A042
+    A035
+    A046
+    A048
+    A036
+    A051
+    A050
+    A047
+    A049
+    A044
+    A045
+    A043
+    A041
+    A111
+    (  )
+    (  )
+    A112
+    (  )
+    (  )
+    A109
+    (  )
+    (  )
+    A103
+    (  )
+    (  )
+    A071
+    (  )
+    (  )
+    A104
+    (  )
+    (  )
+    A105
+    (  )
+    (  )
+    A106
+    (  )
+    (  )
+    A107
+    (  )
+    (  )
+    A108
+    (  )
+    (  )
+    A089
+    (  )
+    (  )
+    A090
+    (  )
+    (  )
+    A091
+    (  )
+    (  )
+    A092
+    (  )
+    (  )
+    A093
+    (  )
+    (  )
+    A094
+    (  )
+    (  )
+    A095
+    (  )
+    (  )
+    A096
+    A087
+    A088
+    A004
+    A012
+    A082
+    A026
+    AWR0
+      _HID
+      _UID
+      ABR0
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR1
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR2
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR3
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR4
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR5
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+      ABR6
+        _HID
+        _UID
+        AB12
+        AB00
+        AB01
+        AB0E
+        AB02
+        AB03
+        AB04
+        AB05
+        AB06
+        AB07
+        AB08
+        AB09
+        AB0A
+        AB0B
+        AB0C
+        AB0D
+        A072
+        (  )
+        (  )
+        (  )
+        A065
+        A066
+        (  )
+        A073
+        (  )
+        A074
+        A075
+        (  )
+        (  )
+        A076
+        (  )
+        A077
+        (  )
+        A078
+        AB10
+        _INI
+        A060
+        A055
+        A061
+        A054
+        A053
+        A056
+        A052
+        A057
+        A058
+        A067
+        A059
+        A062
+        A068
+        A083
+        AESP
+        A063
+        A081
+        A069
+        A079
+        A080
+
+    A003
+    A070
+    A113
+    A001
+    A002
+    APTS
+    AWAK
+    APPM
+    A005
+    A013
+    WMI6
+      _HID
+      _UID
+      _WDG
+      SMIP
+      (  )
+      IOB2
+      LNVS
+      (  )
+      SGNT
+      MCMD
+      SCMD
+      RCDE
+      DAT1
+      DAT2
+      DAT3
+      DAT4
+      BDAT
+      MSMI
+      LBUF
+      LSMI
+      WMEE
+      WMEB
+      WQFE
+
+    MACO
+
+  _SI_
+    _SST
+
+  _TZ_
+  _REV
+  _OS_
+  _OSI
+  _GL_
+  MACA
+  WOLD
+  DPIO
+  DUDM
+  DMDM
+  UUDM
+  UMDM
+  UPIO
+  FDMA
+  FPIO
+  SPS_
+  OSIF
+  WNTF
+  WXPF
+  WVIS
+  WIN7
+  WIN8
+  WSPV
+  LNUX
+  H8DR
+  MEMX
+  ACST
+  FMBL
+  FDTP
+  FUPS
+  FNID
+  RRBF
+  NBCF
+  MNVS
+  (  )
+  (  )
+  GAPA
+  GAPL
+  DCKI
+  DCKS
+  VCDL
+  VCDC
+  VCDT
+  VCDD
+  (  )
+  VCSS
+  VCDB
+  VCIN
+  VVPO
+  BNTN
+  BRLV
+  CDFL
+  CDAH
+  PMOD
+  PDIR
+  PDMA
+  (  )
+  LFDC
+  (  )
+  C2NA
+  C3NA
+  C4NA
+  C6NA
+  C7NA
+  (  )
+  (  )
+  (  )
+  (  )
+  NHPS
+  NPMS
+  (  )
+  UOPT
+  BTID
+  DPP0
+  DPP1
+  DPP2
+  DPP3
+  DPP4
+  DPP5
+  (  )
+  (  )
+  TCRT
+  TPSV
+  TTC1
+  TTC2
+  TTSP
+  SRAH
+  SRHE
+  SRE1
+  SRE2
+  SRE3
+  SRE4
+  SRE5
+  SRE6
+  SRU1
+  SRU2
+  SRU3
+  SRU7
+  SRU4
+  SRU5
+  SRU8
+  SRPB
+  SRLP
+  SRSA
+  SRSM
+  CWAC
+  CWAS
+  CWUE
+  CWUS
+  (  )
+  CWAP
+  CWAT
+  DBGC
+  (  )
+  FS1L
+  FS1M
+  FS1H
+  FS2L
+  FS2M
+  FS2H
+  FS3L
+  FS3M
+  FS3H
+  TATC
+  (  )
+  TATL
+  TATW
+  TNFT
+  TNTT
+  TDFA
+  TDTA
+  TDFD
+  TDTD
+  TCFA
+  TCTA
+  TCFD
+  TCTD
+  TSFT
+  TSTT
+  TIT0
+  TCR0
+  TPS0
+  TIT1
+  TCR1
+  TPS1
+  TIT2
+  TCR2
+  TPS2
+  TIF0
+  TIF1
+  TIF2
+  (  )
+  BTHI
+  (  )
+  HDIR
+  HDEH
+  HDSP
+  HDPP
+  HDUB
+  HDMC
+  NFCF
+  (  )
+  TPME
+  BIDE
+  IDET
+  (  )
+  (  )
+  (  )
+  DTS0
+  (  )
+  DT00
+  DT01
+  DT02
+  DT03
+  (  )
+  LIDB
+  C4WR
+  C4AC
+  ODDX
+  CMPR
+  ILNF
+  PLUX
+  (  )
+  (  )
+  WLAC
+  WIWK
+  (  )
+  (  )
+  (  )
+  IDMM
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  SWGP
+  IPMS
+  IPMB
+  IPMR
+  IPMO
+  IPMA
+  VIGD
+  VDSC
+  VMSH
+  (  )
+  VDSP
+  (  )
+  (  )
+  ASFT
+  PL1L
+  PL1M
+  CHKC
+  CHKE
+  ATRB
+  (  )
+  PPCR
+  TPCR
+  (  )
+  (  )
+  CTPR
+  PPCA
+  TPCA
+  (  )
+  BFWB
+  OSPX
+  OSC4
+  CPPX
+  (  )
+  SPEN
+  SCRM
+  (  )
+  ETAU
+  IHBC
+  APMD
+  APMF
+  (  )
+  FTPS
+  HIST
+  LPST
+  LWST
+  (  )
+  (  )
+  (  )
+  HPET
+  PKLI
+  VLCX
+  VNIT
+  VBD0
+  VBDT
+  VBPL
+  VBPH
+  VBML
+  VBMH
+  VEDI
+  PDCI
+  ISCG
+  ISSP
+  ISWK
+  ISFS
+  (  )
+  SHA1
+  (  )
+  LWCP
+  LWEN
+  IOCP
+  IOEN
+  IOST
+  (  )
+  USBR
+  (  )
+  (  )
+  (  )
+  BT2T
+  (  )
+  TPPP
+  TPPC
+  CTPC
+  FNWK
+  (  )
+  XHCC
+  FCAP
+  VSTD
+  VCQL
+  VTIO
+  VMYH
+  VSTP
+  VCQH
+  VDCC
+  VSFN
+  VDMC
+  VFHP
+  VIFC
+  VMMC
+  VMSC
+  VPSC
+  VCSC
+  (  )
+  CICF
+  CICM
+  MYHC
+  MMCC
+  PT1D
+  (  )
+  PT2D
+  (  )
+  PT0D
+  (  )
+  DVS0
+  DVS1
+  DVS2
+  DVS3
+  (  )
+  DSTD
+  (  )
+  DCQL
+  (  )
+  DTIO
+  (  )
+  DMYH
+  (  )
+  DPST
+  (  )
+  DCQH
+  (  )
+  DDCC
+  (  )
+  DSFN
+  (  )
+  DDMC
+  (  )
+  DFHP
+  (  )
+  DIFC
+  (  )
+  DMMC
+  (  )
+  DMSC
+  (  )
+  DPSC
+  (  )
+  DCSC
+  (  )
+  SMYH
+  SMMC
+  SPSC
+  (  )
+  STDV
+  SCRB
+  PMOF
+  EGPE
+  MMOP
+  MMCO
+  MMPE
+  MMQU
+  PSM1
+  PSM2
+  PSM3
+  PSM4
+  PSM5
+  PSM6
+  PSM7
+  PSM8
+  VEDX
+  SHDW
+  (  )
+  (  )
+  WITM
+  WSEL
+  WLS0
+  WLS1
+  WLS2
+  WLS3
+  WLS4
+  WLS5
+  WLS6
+  WLS7
+  WLS8
+  WLS9
+  WLSA
+  WLSB
+  WLSC
+  WLSD
+  WENC
+  WKBD
+  WPTY
+  WPAS
+  WPNW
+  WSPM
+  WSPS
+  WSMN
+  WSMX
+  WSEN
+  WSKB
+  WASB
+  WASI
+  WASD
+  WASS
+  (  )
+  (  )
+  DBGB
+  SMI0
+  (  )
+  APMC
+  (  )
+  (  )
+  CMD_
+  ERR_
+  PAR0
+  PAR1
+  PAR2
+  PAR3
+  MSMI
+  SMI_
+  RPCI
+  WPCI
+  MPCI
+  RBEC
+  WBEC
+  MBEC
+  RISA
+  WISA
+  MISA
+  VEXP
+  VUPS
+  VSDS
+  VDDC
+  VVPD
+  VNRS
+  GLPW
+  VSLD
+  VEVT
+  VTHR
+  VBRC
+  VBRG
+  VCMS
+  VBTD
+  VDYN
+  SDPS
+  SCMS
+  BHDP
+  STEP
+  SLTP
+  CBRI
+  BCHK
+  BYRS
+  LCHK
+  BLTH
+  PRSM
+  ISOC
+  EZRC
+  WGSV
+  TSDL
+  FLPF
+  CSUM
+  NVSS
+  WMIS
+  AWON
+  PMON
+  UAWS
+  BFWC
+  BFWP
+  BFWL
+  BFWG
+  BDMC
+  PSIF
+  FNSC
+  AUDC
+  SYBC
+  KBLS
+  FPCI
+  CBBM
+  FCSW
+  UBIS
+  DIEH
+  OUTP
+  SREQ
+  SPMS
+  WMEM
+  WFIO
+  _S0_
+  _S3_
+  _S4_
+  _S5_
+  TZFG
+  DBG0
+  (  )
+  IO80
+  DEB2
+  (  )
+  P80H
+  PMIO
+  (  )
+  PIDX
+  PDAT
+  P01_
+  (  )
+  PST1
+  LINX
+  OSSP
+  OSTB
+  TPOS
+  OSTP
+  SEQL
+  _PTS
+  WAKI
+  CMOS
+  (  )
+  INDX
+  DATA
+  (  )
+  (  )
+  DAT0
+  DAT1
+  DAT2
+  (  )
+  WKSR
+  _WAK
+  GPIC
+  _PIC
+  HPDT
+  DDB0
+  DDB1
+  DDB2
+  DBGW
+  (  )
+  P80W
+  DBGD
+  (  )
+  P80D
+  TSOS
+  AFN0
+  AFN1
+  AFN2
+  AFN3
+  AFN4
+  AFN5
+  AFN6
+  AFN7
+  AFN8
+  AFNC
+  CPNV
+  (  )
+  M082
+  M083
+  M084
+  M085
+  M221
+  M086
+  M229
+  M231
+  M235
+  M233
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  (  )
+  M087
+  (  )
+  (  )
+  M088
+  M089
+  M090
+  M091
+  M092
+  M093
+  M094
+  M095
+  M096
+  M097
+  M098
+  M099
+  M100
+  M101
+  M102
+  M103
+  M104
+  M105
+  M106
+  M378
+  M379
+  M380
+  M381
+  M382
+  M383
+  M384
+  M385
+  M386
+  M387
+  M388
+  M389
+  M390
+  M391
+  M392
+  M107
+  M320
+  M321
+  M322
+  M323
+  M324
+  M325
+  M326
+  M327
+  M328
+  M128
+  M108
+  M109
+  M110
+  M122
+  M131
+  M132
+  M133
+  M134
+  M135
+  M136
+  M220
+  M226
+  M251
+  M310
+  M280
+  M290
+  M000
+  M019
+  M020
+  M253
+  M249
+  M250
+  M021
+  M022
+  M023
+  M024
+  M026
+  M025
+  M009
+  M010
+  M037
+  M227
+  M329
+  M330
+  M029
+  M031
+  M032
+  M013
+  M014
+  M011
+  M012
+  M017
+  M018
+  M265
+  M033
+  M027
+  M028
+  M034
+  M015
+  M016
+  M035
+  M036
+  M001
+  M003
+  M004
+  M005
+  M006
+  M002
+  M008
+  M007
+  M111
+  M228
+  M219
+  M112
+  M275
+  M113
+  M114
+  M252
+  M046
+  M047
+  M045
+  M049
+  M04A
+  M04B
+  M230
+  M232
+  M043
+  MLIB
+  M248
+  M401
+  M402
+  M403
+  M404
+  M405
+  M406
+  MPTS
+  MWAK
+  M278
+  M279
+  M27A
+  M276
+  M277
